@@ -10,7 +10,7 @@ app.use(cors())
 mongoose.connect('mongodb://localhost:27017/nodeapi', {useNewUrlParser: true})
 
 requireDir('./src/models')
-
+// Alteração do sistema
 //const Product = mongoose.model("Product")
 
 app.use('/api', require("./src/routes"))
